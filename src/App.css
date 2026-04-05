@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&family=Shippori+Mincho&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme{
+    --animate-gradient: gradient 10s ease infinite;
+    
+    @keyframes gradient {
+        0%{background-position: 0% 50%;}
+        50%{background-position: 100% 50%;}
+        100%{background-position: 0% 50%;}
+    }
+}
+
+@theme{
+    --rainbow-shadow: rainbow-shadow 3s ease-in-out infinite;
+    --wave-move: wave-move 3s ease-in-out infinite;
+
+
+    @keyframes rainbow-shadow {
+    0%   { box-shadow: 0 0 12px #ff0000; }
+    14%  { box-shadow: 0 0 12px #ff7f00; }
+    28%  { box-shadow: 0 0 12px #ffff00; }
+    42%  { box-shadow: 0 0 12px #00ff00; }
+    57%  { box-shadow: 0 0 12px #0000ff; }
+    71%  { box-shadow: 0 0 12px #4b0082; }
+    85%  { box-shadow: 0 0 12px #8b00ff; }
+    100% { box-shadow: 0 0 12px #ff0000; }
+  }
+  @keyframes wave-move {
+    0%   { transform: translateY(0px); }
+    25%  { transform: translateY(-15px); }
+    50%  { transform: translateY(0px); }
+    75%  { transform: translateY(15px); }
+    100% { transform: translateY(0px); }
+  }
+
+}
+
+*{
+    font-family: "Shippori Mincho", serif;
+}
+
+html,body, #loot{
+    height: 100%;
+}
+
