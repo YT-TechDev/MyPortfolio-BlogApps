@@ -4,7 +4,7 @@ export default function ProfilesData(props:any) {
       <div className="flex flex-wrap items-center justify-center mx-auto container pt-3 mb-3 ">
         <div className="block mb-3">
           <img src={props.ImageURL} alt="MyIcons" className="lg:ml-6 w-64 h-64 items-start justify-center rounded-full object-none object-[60%_40%]" />
-          <p className="text-center mt-3 text-2xl md:text-3xl lg:text-4xl text-white">name:Yuto.DEV</p>
+          <p className="text-center mt-3 text-2xl md:text-3xl lg:text-4xl text-white">name:YT-TechDev</p>
           <p className="text-center mt-3 text-2xl md:text-3xl lg:text-4xl text-white">birthday:2000/04/02</p>
         </div>
         <div className="hidden mt-3 md:block md:mt-6 lg:inline md:ml-6 lg:ml-6 items-center justify-center">
